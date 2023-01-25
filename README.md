@@ -25,6 +25,7 @@ The following technology was used in order to create this app:
 - As a user, I want to be able to sign up.
 - As a user, I want to be able to sign in.
 - As a user, I want to be able to add a movie.
+- As a user, I want to be able to see all the movies I have in my list.
 - As a user, I want to be able to update how much of the movie I have watched.
 - As a user, I want to be able to delete a movie.
 
