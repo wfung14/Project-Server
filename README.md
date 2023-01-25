@@ -1,7 +1,7 @@
 # Into The Queue
 
 ## Description
-For my full-stack application, I've decided to make a make a movie tracker. This is essentially a list to keep track of what movies a person hasn't seen and wants to watch in the future. This can also be used to put movies on the list that a person has seen and wants to watch again. Once the user has watched their chosen movie, they'll be able to remove it from the list.
+For my full-stack application, I've decided to make a movie tracker. This is essentially a list to keep track of what movies a person hasn't seen and wants to watch in the future. This can also be used to put movies on the list that a person has seen and wants to watch again. Once the user has watched their chosen movie, they'll be able to remove it from the list.
 
 ![](itb1.png)
 ![](itb2.png)
