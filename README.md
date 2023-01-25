@@ -39,4 +39,4 @@ The following technology was used in order to create this app:
 
 ## ERD Screenshot
 
-![](erd.png)
+![](erd1.png)
