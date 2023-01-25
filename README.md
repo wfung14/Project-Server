@@ -38,4 +38,5 @@ The following technology was used in order to create this app:
 - As a user, I want to be able to write comments for a movie.
 
 ## ERD Screenshot
+
 ![](erd.png)
