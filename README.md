@@ -27,16 +27,18 @@ The following technology was used in order to create this app:
 - As a user, I want to be able to add a movie.
 - As a user, I want to be able to see all the movies I have in my list.
 - As a user, I want to be able to update how much of the movie I have watched.
+- As a user, I want to be able to write comments for a movie.
+- As a user, I want to be able to see the comments I wrote.
+- As a user, I want to be able to edit the comments I wrote.
 - As a user, I want to be able to delete a movie.
 
 ### Version 2
 - As a user, I want to be able to see the movie poster next to the name.
 - As a user, I want to be able to categorize the movies into genres.
-- As a user, I want to be able to choose a movie based on the lead actors.
 
 ### Version 3
 - As a user, I want to be able to search for a movie.
-- As a user, I want to be able to write comments for a movie.
+- As a user, I want to be able to choose a movie based on the lead actors.
 
 ## ERD Screenshot
-![](erd2.png)
+![](erd3.png)
