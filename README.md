@@ -36,3 +36,6 @@ The following technology was used in order to create this app:
 ### Version 3
 - As a user, I want to be able to search for a movie.
 - As a user, I want to be able to write comments for a movie.
+
+## ERD Screenshot
+![](erd.png)
