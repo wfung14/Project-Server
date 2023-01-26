@@ -1,0 +1,26 @@
+{
+  "name": "project-server",
+  "version": "1.0.0",
+  "description": "## Description For my full-stack application, I've decided to make a movie tracker. This is essentially a list to keep track of what movies a person hasn't seen and wants to watch in the future. This can also be used to put movies on the list that a person has seen and wants to watch again. Once the user has watched their chosen movie, they'll be able to remove it from the list.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfung14/Project-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfung14/Project-Server/issues"
+  },
+  "homepage": "https://github.com/wfung14/Project-Server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
