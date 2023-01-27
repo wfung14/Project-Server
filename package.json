@@ -1,13 +1,14 @@
 {
-  "name": "project-server",
+  "name": "movie-tracker-server",
   "version": "1.0.0",
   "description": "## Description For my full-stack application, I've decided to make a movie tracker. This is essentially a list to keep track of what movies a person hasn't seen and wants to watch in the future. This can also be used to put movies on the list that a person has seen and wants to watch again. Once the user has watched their chosen movie, they'll be able to remove it from the list.",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,12 @@
   },
   "homepage": "https://github.com/wfung14/Project-Server#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
   }
 }
