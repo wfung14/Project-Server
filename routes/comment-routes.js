@@ -1,9 +1,6 @@
 const express =require('express')
-
 const { handle404 } = require('../lib/custom-errors')
-
 const Comment = require('../models/comment')
-
 const router = express.Router()
 
 router.get('/comments', (req, res, next) => {

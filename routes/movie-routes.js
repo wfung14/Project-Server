@@ -3,7 +3,6 @@ const { handle404 } = require('../lib/custom-errors')
 const Movie = require('../models/movie')
 const router = express.Router()
 
-
 router.get('/movies', (req, res, next) => {
     Movie.find()
         .then(movies => {
@@ -15,7 +14,6 @@ router.get('/movies', (req, res, next) => {
         .catch(next)
 })
 
-
 router.get('/movies/:id', (req, res, next) => {
     Movie.findById(req.params.id)
         .then(handle404)
@@ -25,7 +23,6 @@ router.get('/movies/:id', (req, res, next) => {
         .catch(next)
 })
 
-
 router.post('/movies', (req, res, next) => {
     Movie.create(req.body.movie)
         .then(movie => {
@@ -33,7 +30,6 @@ router.post('/movies', (req, res, next) => {
         })
         .catch(next)
 })
-
 
 router.patch('/movies/:id', (req, res, next) => {
     Movie.findById(req.params.id)
@@ -44,7 +40,6 @@ router.patch('/movies/:id', (req, res, next) => {
         .then(() => res.sendStatus(204))
         .catch(next)
 })
-
 
 router.delete('/movies/:id', (req, res, next) => {
     Movie.findById(req.params.id)

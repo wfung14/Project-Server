@@ -3,8 +3,8 @@
 ## Description
 For my full-stack application, I've decided to make a movie tracker. This is essentially a list to keep track of what movies a person hasn't seen and wants to watch in the future. This can also be used to put movies on the list that a person has seen and wants to watch again. Once the user has watched their chosen movie, they'll be able to remove it from the list.
 
-![](itb1.png)
-![](itb2.png)
+![](images/itb1.png)
+![](images/itb2.png)
 
 ## Technology Used
 The following technology was used in order to create this app:
@@ -41,4 +41,4 @@ The following technology was used in order to create this app:
 - As a user, I want to be able to choose a movie based on the lead actors.
 
 ## ERD Screenshot
-![](erd3.png)
+![](images/erd3.png)
